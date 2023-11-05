@@ -1,6 +1,9 @@
+require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const axios = require('axios');
+
+
 
 const app = express();
 app.use(bodyParser.json());
@@ -30,7 +33,7 @@ app.get('/', (req, res) => {
     res.send('Ngrok is working and can reach the Express server!');
   });
 
-const PORT = process.env.PORT || 443 ;
+const PORT = process.env.PORT || 3001 ;
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });

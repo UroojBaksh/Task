@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
     res.send('Ngrok is working and can reach the Express server!');
   });
 
-const PORT = process.env.PORT || 80 ;
+const PORT = process.env.PORT || 443 ;
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });

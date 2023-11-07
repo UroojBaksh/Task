@@ -36,7 +36,7 @@ A step by step series of examples that tell you how to get a development environ
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/yourprojectname.git
+git clone https://github.com/UroojBaksh/Task.git
 ```
 
 Navigate to the project directory:
@@ -100,7 +100,7 @@ node --version
 
 ## 4. Clone your project from Github
 ```
-git clone https://github.com/piyushgargdev-01/short-url-nodejs
+git clone https://github.com/UroojBaksh/Task.git
 ```
 
 ## 5. Install dependencies and test app

@@ -120,16 +120,7 @@ pm2 flush (Clear logs)
 pm2 startup ubuntu
 ```
 
-## 6. Setup Firewall
-```
-sudo ufw enable
-sudo ufw status
-sudo ufw allow ssh (Port 22)
-sudo ufw allow http (Port 80)
-sudo ufw allow https (Port 443)
-```
-
-## 7. Install NGINX and configure
+## 6. Install NGINX and configure
 ```
 sudo apt install nginx
 
@@ -156,7 +147,7 @@ sudo nginx -t
 sudo nginx -s reload
 ```
 
-## 8. Add SSL with LetsEncrypt
+## 7. Add SSL with LetsEncrypt
 ```
 sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get update
